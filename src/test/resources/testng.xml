@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameterized_Suite">
+    <test name="parameterized_test_1">
+        <parameter name="fruit" value="mango"/>
+        <parameter name="sauce" value="yogurt"/>
+        <classes>
+            <class name="TestsWithParameters" />
+        </classes>
+    </test>
+    <test name="parameterized_test_2">
+        <parameter name="fruit" value="apples"/>
+        <parameter name="sauce" value="honey"/>
+        <classes>
+            <class name="TestsWithParameters" />
+        </classes>
+    </test>
+    <test name="parameterized_test_3">
+        <parameter name="fruit" value="strawberry"/>
+        <parameter name="sauce" value="yogurt"/>
+        <classes>
+            <class name="TestsWithParameters" />
+        </classes>
+    </test>
+</suite>
